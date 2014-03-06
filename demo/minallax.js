@@ -1,4 +1,4 @@
-(function(){
+(function () {
     "use strict";
     var minallaxElement;
     var minallaxElementTop;
@@ -13,7 +13,7 @@
             return;
         }
         var scrollPerTick = (scrollTarget - window.scrollY) / duration * 10;
-        setTimeout(function() {
+        setTimeout(function () {
             window.scrollTo(window.scrollY, window.scrollY + scrollPerTick);
             scrollTo(scrollTarget, duration - 5);
         }, 5);
